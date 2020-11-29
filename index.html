@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GET Dog Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class='contai'>
+    <main>
+        <header>
+            <h1>Josh's Magic Trick</h1>
+        </header>
+        <form id='js-form'>
+            <label for="quantity">
+                Would you like to see a magic trick? <br> Pick a number between 1 and 50! <br>
+            </label>
+            <input type="number" id="quantity" name="quantity" min="1" max="50" value="3">
+            <input type="submit" value="Okay, I got it!">
+        </form>
+        <section class="results hidden">
+            <h2>Do you want to see me do it again?</h2>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
